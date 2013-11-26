@@ -1,0 +1,13 @@
+* text=auto
+
+*.c text
+*.m text diff=objc
+*.h text diff=objc
+*.html text diff=html
+*.py text diff=python
+
+*.xcscheme text
+*.xcworkspacedata text
+*.pch text
+*.pbxproj text -crlf -merge=union
+*.plist binary
