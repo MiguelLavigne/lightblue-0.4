@@ -87,7 +87,7 @@ def btaddrtochars(addr):
         >>> chars = btaddrtochars("00:0e:0a:00:a2:00")
         >>> chars
         (0, 14, 10, 0, 162, 0)
-        >>> device = _IOBluetooth.IOBluetoothDevice.withAddress_(chars)
+        >>> device = _IOBluetooth.IOBluetoothDevice.deviceWithAddress_(chars)
         >>> type(device)
         <objective-c class IOBluetoothDevice at 0xa4024988>
         >>> device.getAddressString()
